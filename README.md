@@ -1,5 +1,18 @@
 # Decoding-IPL-Match-Analysis
 
+Our project has two aims. 
+1. Predict the
+outcome of matches, i.e. the winner of the match, based
+on previous years’ data. 
+2. Predict the
+scores during certain intervals of the game. For example,
+the score in overs 1-15, 1-10 or 3-8 etc.
+
+To accomplish this, algorithms such as Decision Trees, Linear
+Regression, Random Forest and Support Vector Machines
+have been used.
+
+
 The file structure is as follows:
 
 1. **Dataset/**: This directory contains all the data files, stored weights and the embedding matrix. 
