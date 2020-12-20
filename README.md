@@ -30,19 +30,21 @@ The file structure is as follows:
     5. **Dataset/kaggle_data**: contains matches.csv (match-wise information about every IPL season from 2008 to 2020) and deliveries.csv (delivery-wise information about every IPL match).
     6. **Dataset/Ball_by_ball.csv**: contains modified deliveries.csv with 7-dimensional vectors instead of player names.
 
-2. **Ball_by_Ball_Regression.ipynb**: Code to perform regression on ball-by-ball dataset. It predicts the score for each ball.
+2. **plots/**: Folder containing plots created during Exploratory Data Analysis.
 
-3. **Create_ball_by_ball_dataset.ipynb**: Converts the categorized features (batsman, non-striker and bowler) in deliveries.csv into their corresponding vectors.
+3. **Ball_by_Ball_Regression.ipynb**: Code to perform regression on ball-by-ball dataset. It predicts the score for each ball.
 
-4. **Create_variable_balls_dataset.ipynb**: Groups together variable number of balls from the deliveries.csv.
+4. **Create_ball_by_ball_dataset.ipynb**: Converts the categorized features (batsman, non-striker and bowler) in deliveries.csv into their corresponding vectors.
 
-5. **EDA.ipynb**: Contains the Exploratory Data Analysis performed on the collected data. 
+5. **Create_variable_balls_dataset.ipynb**: Groups together variable number of balls from the deliveries.csv.
 
-6. **HyperparameterTuning_Regression.ipynb**: Regression based models with hyperparameter tuning for the best model.
+6. **EDA.ipynb**: Contains the Exploratory Data Analysis performed on the collected data. 
 
-7. **Player_Embedding_Vectors.ipynb**: Creates player embeddings based on the player-wise performance scraped from IPL's official website.
+7. **HyperparameterTuning_Regression.ipynb**: Regression based models with hyperparameter tuning for the best model.
 
-8. **match_classification.ipynb**: Classification models with hyperparameter tuning for the match result prediction task.                         
+8. **Player_Embedding_Vectors.ipynb**: Creates player embeddings based on the player-wise performance scraped from IPL's official website.
+
+9. **match_classification.ipynb**: Classification models with hyperparameter tuning for the match result prediction task.                         
 
 
 
