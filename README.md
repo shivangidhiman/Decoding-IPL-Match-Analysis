@@ -1,32 +1,46 @@
 # Decoding-IPL-Match-Analysis
 
-The file structure is as follows :
+The file structure is as follows:
 
-**Dataset/** ---> This directory contains all the data diles, stored weights and embedding matrix 
+1. **Dataset/**: This directory contains all the data files, stored weights and the embedding matrix. 
+    1. **Dataset/Embeddings/**: Contains the embedding matrix 
+        1. **emb_player_vec_dict**: contains the embedding matrix and vector information.
+        2. **emb_player_stoi_dict**: contains the string to index information for player names.
+        3. **del_to_emb_final**: stores the mapping of player names from deliveries.csv to embedding matrix.
+        4. **emb_player_vec_dict**: stores the embedding vector player_name wise.
+        5. **not_found**: contains the list of players who had different names in both the datasets.
+    2. **Dataset/cricksheet_ipl_csv**: Data collected from [Cricsheet's website](https://cricsheet.org/) in .csv format.
+    3. **Dataset/cricsheet_ipl_yaml**:  Data collected from [Cricsheet's website](https://cricsheet.org/) in .yaml format.  
+    4. **Dataset/ipl_stats**: Data scraped from the [IPL's official website](https://www.iplt20.com/) for season wise player points.
+    5. **Dataset/kaggle_data**: contains matches.csv (match-wise information about every IPL season from 2008 to 2020) and deliveries.csv (delivery-wise information about every IPL match).
+    6. **Dataset/Ball_by_ball.csv**: contains modified deliveries.csv with 7-dimensional vectors instead of player names.
 
-**Create_ball_by_ball_dataset.ipynb** ---> Convert the categorized features (batsman, non-striker and bowler) in the deliveries.csv into into their corresponding vectors
+2. **Create_ball_by_ball_dataset.ipynb**: Converts the categorized features (batsman, non-striker and bowler) in deliveries.csv into their corresponding vectors.
 
-**HyperparameterTuning_Regression.ipynb** ---> Regression based models with hyperparameter tuning for the best model on the variable number of balls dataset created 
+3. **Create_variable_balls_dataset.ipynb**: Groups together variable number of balls from the deliveries.csv.
 
-**Create_variable_balls_dataset.ipynb** ---> Groups together variable number of balls from the deliveries.csv 
+4. **EDA.ipynb**: Contains the Exploratory Data Analysis performed on the collected data. 
 
-**match_classification.ipynb** ---> Classification models with hypperparameter tuning for the match result prediction task                         
+5. **HyperparameterTuning_Regression.ipynb**: Regression based models with hyperparameter tuning for the best model.
 
-**Player_Embedding_Vectors.ipynb** ---> Creates player embeddings based on the player-wise performance scraped from IPL's official website 
+6. **Player_Embedding_Vectors.ipynb**: Creates player embeddings based on the player-wise performance scraped from IPL's official website.
 
-**EDA.ipynb** ---> Perform Exploratory Data Analysis on the collected data 
+7. **match_classification.ipynb**: Classification models with hyperparameter tuning for the match result prediction task.                         
 
-**Dataset/Ball_by_ball.csv** ---> containes modified deliveris.csv with 7 dimensional vectors instead of player names 
 
-**Dataset/cricsheet_ipl_yaml** --->  Data collected from Cricksheets website in .yaml format  
 
-**Dataset/ipl_stats** ---> Data scraped from the IPL's official wesite for season wise player points
 
-**Dataset/cricksheet_ipl_csv** ---> Data collected from Cricksheets website in .csv format   
 
-**Dataset/kaggle_data** ---> constains matches.csv (match wise information about every IPL season) and deliveries.csv (delivery wise information about every IPL match)
 
-**Dataset/Embeddings/** ---> Contains the embedding matrix (**emb_player_vec_dict**) and other player to vector information (**emb_player_stoi_dict**) which contains the string to index information for player names , **del_to_emb_final** stores the mapping of player names from deliveries.csv to embedding matriz, **emb_player_vec_dict** stores the player name wise embedding vector, **not_found** has the players wich had different name in both the datasets 
+
+
+
+
+
+  
+
+
+
 
 
 
