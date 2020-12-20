@@ -12,6 +12,8 @@ To accomplish this, algorithms such as Decision Trees, Linear
 Regression, Random Forest and Support Vector Machines
 have been used.
 
+---
+
 
 The file structure is as follows:
 
