@@ -26,7 +26,8 @@ The file structure is as follows :
 
 **Dataset/kaggle_data** ---> constains matches.csv (match wise information about every IPL season) and deliveries.csv (delivery wise information about every IPL match)
 
-**Dataset/Embeddings/** ---> Contains the embedding matrix (emb_player_vec_dict) and other player to vector information (emb_player_stoi_dict) which contains the string to index information for player names 
+**Dataset/Embeddings/** ---> Contains the embedding matrix (**emb_player_vec_dict**) and other player to vector information (**emb_player_stoi_dict**) which contains the string to index information for player names , **del_to_emb_final** stores the mapping of player names from deliveries.csv to embedding matriz, **emb_player_vec_dict** stores the player name wise embedding vector, **not_found** has the players wich had different name in both the datasets 
+
 
 
 
