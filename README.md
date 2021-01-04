@@ -1,4 +1,4 @@
-# Decoding-IPL-Match-Analysis
+# Decoding IPL: Match Analysis
 
 Our project has two aims. 
 1. Predict the
