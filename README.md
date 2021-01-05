@@ -1,6 +1,6 @@
 # Decoding IPL: Match Analysis
 
-### About the Project:
+### About the Project
 
 Given the recent advancement in technology, analytics
 through Machine Learning and Artificial Intelligence has
@@ -21,7 +21,7 @@ To accomplish this, we used algorithms such as Decision Trees, Linear
 Regression, Random Forest and Support Vector Machines.
 
 
-### File Structure:
+### File Structure
 
 The file structure is as follows:
 
@@ -59,6 +59,11 @@ The file structure is as follows:
 10. **match_classification.ipynb**: Classification models with hyperparameter tuning for the match result prediction task.                         
 
 
+### Contributors
+
+1. Mudit Dhawan
+2. Samik Prakash
+3. Shivangi Dhiman
 
 
 
