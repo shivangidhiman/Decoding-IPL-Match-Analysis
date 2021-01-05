@@ -1,19 +1,27 @@
 # Decoding IPL: Match Analysis
 
-Our project has two aims. 
-1. Predict the
-outcome of matches, i.e. the winner of the match, based
-on previous years’ data. 
-2. Predict the
-scores during certain intervals of the game. For example,
-the score in overs 1-15, 1-10 or 3-8 etc.
+### About the Project:
 
-To accomplish this, algorithms such as Decision Trees, Linear
-Regression, Random Forest and Support Vector Machines
-have been used.
+Given the recent advancement in technology, analytics
+through Machine Learning and Artificial Intelligence has
+become crucial in many areas, including sports. A considerable amount of data is now collected and used to predict
+scores and future trends, make managerial decisions and
+analyse the performance of the players in various sports,
+using Machine Learning techniques. 
 
----
+We tried to use these
+advancements to analyse and explore the Indian Premier
+League (IPL). 
 
+Our project has two aims: 
+1. Predict the outcome of matches, i.e. the winner of the match, based on previous years’ data. 
+2. Predict the scores during certain intervals of the game. For example, the score in overs 1-15, 1-10 or 3-8 etc.
+
+To accomplish this, we used algorithms such as Decision Trees, Linear
+Regression, Random Forest and Support Vector Machines.
+
+
+### File Structure:
 
 The file structure is as follows:
 
